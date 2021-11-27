@@ -3,14 +3,6 @@ package com.example.androidrsaproject;
 import java.math.BigInteger;
 import java.security.SecureRandom;
 
-/**
- * Simple RSA public key encryption algorithm implementation.
- * <P>
- * Taken from "Paj's" website:
- * <TT>http://pajhome.org.uk/crypt/rsa/implementation.html</TT>
- * <P>
- * Adapted by David Brodrick
- */
 public class RSA {
   private BigInteger n, d, e;
 
